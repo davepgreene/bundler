@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "rubygems/installer"
+require "digest/sha2"
 
 module Bundler
   class RubyGemsGemInstaller < Gem::Installer
